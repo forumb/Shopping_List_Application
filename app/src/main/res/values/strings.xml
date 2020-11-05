@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+
+    <!-- Label for overflow menu option that inserts fake data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all items in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Title for the activity to add a new item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_item">Add an Item</string>
+
+    <!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Item</string>
+
+    <!-- Label for category information in the editor [CHAR LIMIT=30] -->
+    <string name="category_list">Category</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Amount</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_name">Name</string>
+
+    <!-- Text hint for description field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_description">Description</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_quantity">Quantity</string>
+
+    <!-- Units for quntity of item (kilograms/litres) [CHAR LIMIT=5] -->
+    <string name="unit_item_quantity">kg/ltr</string>
+
+    <!-- Label for dropdown menu option if the items's category is unknown [CHAR LIMIT=20] -->
+    <string name="category_other">Other</string>
+
+    <!-- Label for dropdown menu option if the items's category is food [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
+
+    <!-- Label for dropdown menu option if the items's category is diary [CHAR LIMIT=20] -->
+    <string name="category_diary">Diary</string>
+
+    <!-- Title text for the empty view, which describes the empty list image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">What you gonna shop today?</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a new item [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a new item!!</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current item was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when all items was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_all_items_successful">All Items deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all the items [CHAR LIMIT=NONE] -->
+    <string name="delete_all_dialog_msg">Delete all the items?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for description when it is kept empty [CHAR LIMIT=20] -->
+    <string name="empty_description">No Description</string>
+
+    <!-- Title text for the Editor Activity, which describes the New item  [CHAR LIMIT=50] -->
+    <string name="new_item_title_text">Add New Item</string>
+
+    <!-- Title text for the Editor Activity, which describes the modifying existing item [CHAR LIMIT=50] -->
+    <string name="edit_item_title_text">Edit Item</string>
+</resources>
